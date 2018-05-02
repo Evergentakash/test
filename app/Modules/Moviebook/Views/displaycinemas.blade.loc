@@ -1,0 +1,6 @@
+<?php
+
+@foreach ($result1 as $res)
+        <p>{{ $res->theatername }}{{ $res->place }}</p>
+        @endforeach
+
